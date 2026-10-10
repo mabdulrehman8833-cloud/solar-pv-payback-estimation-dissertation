@@ -1,7 +1,0 @@
-Region,ADF p,KPSS p,Mann-Kendall,MK p,Trend,Seasonal,"ADF p, lag-365 diff"
-Crawley,0.124,>0.10,no trend,0.258,0.066,0.889,3.5e-21
-Bury St Edmunds,0.136,>0.10,no trend,0.068,0.057,0.896,1.5e-20
-Castle Donington,0.385,>0.10,no trend,0.129,0.065,0.888,5.2e-26
-Castleford,0.321,>0.10,no trend,0.200,0.091,0.886,6.4e-04
-Cramlington,0.455,>0.10,no trend,0.459,0.105,0.870,5.5e-11
-Perth,0.267,>0.10,no trend,0.324,0.058,0.895,4.5e-18
