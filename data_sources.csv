@@ -1,5 +1,0 @@
-Source,Variables used,Coverage,Role
-PV_Live (Sheffield Solar),Half-hourly regional generation (MW) and installed capacity (MWp),6 of 14 GB PES regions; 2023-01-01 to 2025-12-31; 1096 daily records per region,Ground truth for measured generation
-Open-Meteo ERA5 reanalysis,"Shortwave, direct and diffuse radiation; temperature; relative humidity; cloud cover; wind speed; precipitation","Region centroid; 2023-01-01 to 2025-12-31; hourly, aggregated to daily means",Exogenous weather information set
-PVGIS v5.2 (European Commission JRC),"Modelled annual and monthly yield, 4 kWp array, 35° tilt, due south, 14% system loss",Region centroid; typical meteorological year; 6 annual and 72 monthly estimates,Vendor-analogue benchmark
-DESNZ solar PV cost statistics,"Mean installed cost per kW, domestic 0–4 kW band, Declared Net Capacity basis","Great Britain; financial year 2025/26; 107,137 installations",Capital cost input to the techno-economic model
