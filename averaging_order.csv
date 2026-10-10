@@ -1,8 +1,0 @@
-Region,Measured (kWh/kWp),Typical year (kWh/kWp),Error (%),Per-year runs (kWh/kWp),Error (%) 
-Bury St Edmunds,863,815,-5.59,848,-1.75
-Castle Donington,837,776,-7.29,810,-3.20
-Cramlington,824,782,-5.09,814,-1.19
-Perth,828,757,-8.56,782,-5.49
-Crawley,870,842,-3.19,876,+0.72
-Castleford,817,768,-5.98,803,-1.68
-Mean absolute error,,,5.95,,2.34
