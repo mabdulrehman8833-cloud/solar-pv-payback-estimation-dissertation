@@ -1,0 +1,19 @@
+# Python version used for the reported results: 3.11
+# Versions are pinned to the run that produced the figures in the dissertation.
+# Tree models carry a fixed random seed, but parallel fitting means annual
+# errors can still move by a few hundredths of a percentage point between
+# machines. See the note on reproducibility in README.md.
+
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.16.2
+statsmodels==0.14.5
+scikit-learn==1.8.0
+xgboost==3.2.0
+shap==0.48.0
+matplotlib==3.10.7
+joblib==1.5.2
+
+# used only by build_document.py, which assembles the Word file
+lxml==6.0.2
+pillow==11.3.0
