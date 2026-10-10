@@ -125,9 +125,12 @@ python postcode_predict.py      # the deployed tool, postcode to annual estimate
 ```
 python economics.py --csv > assumptions_table.csv
 python payback_comparison.py
-python make_figures.py          # -> figures/
-python make_tables.py           # -> tables/
+python make_figures.py          # creates figures/ and writes the nine PNGs
+python make_tables.py           # creates tables/ and writes the formatted tables
 ```
+
+The `figures/` and `tables/` directories are not committed, since both scripts
+create them and regenerate their contents from the data in this repository.
 
 ---
 
@@ -162,10 +165,6 @@ aggregating to daily totals.
 `build_document.py` assembles the Word file from the figures and tables. It is
 document production rather than analysis, and is included only for
 completeness.
-
-`archive/` holds earlier versions of three figure scripts, superseded by
-`make_figures.py`. They are kept for transparency and are not part of the
-pipeline.
 
 ---
 
