@@ -1,0 +1,14 @@
+Assumption,Value,Justification / Source
+System size,4.0 kWp,"Modal domestic size; 3.68 kW G98 single-phase connection limit. DESNZ (2026) solar PV cost data: 0-4 kW band = 61% of domestic installations, 2025/26."
+Installed cost,"£2,095.51 /kW","DESNZ (2026) 'Average costs of small-scale solar PV (DNC)', released 28 May 2026. Domestic costs table, 2025/26, 0–4 kW mean, n = 107,137. Declared Net Capacity basis — see method chapter."
+Battery,£0,"No storage modelled; scope decision (storage alters self-consumption, not generation)."
+Total capital,"£8,382",Calculated: installed cost × system size.
+Import price,26.32 p/kWh,"Ofgem energy price cap, electricity unit rate, direct debit, 1 Oct – 31 Dec 2026."
+Export (SEG) rate,5.00 p/kWh,"Smart Export Guarantee. Conservative market floor, not a median; supplier-set and uncapped. Sensitivity reported."
+Real price escalation,0.0% /yr,Stated assumption: prices held flat in real terms.
+Self-consumption,35%,"Adapted downward from McKenna, Pless and Darby (2018), Energy Policy 118, 482-491, who measured ~45% on 2.9 kWp systems across 302 UK households. Lower fraction reflects the larger array; conservative."
+Degradation,0.50% /yr,Tier 1 module linear performance warranty (typically 0.4-0.55%/yr). VERIFY against a named datasheet or Jordan and Kurtz before submission.
+Inverter replacement,"year 13, £900",Single mid-life replacement; string inverters warranted 5-12 years. VERIFY cost against UK installer quotes.
+Discount rate,5.0%,Private household opportunity cost of capital. NOT the HM Treasury Green Book STPR — state this explicitly.
+Appraisal horizon,25 years,"Standard module performance-warranty period; matches Cui et al. (2023), Energies 16(18), 6723, for comparability."
+
