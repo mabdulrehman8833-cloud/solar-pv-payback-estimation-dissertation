@@ -37,7 +37,12 @@ Bury St Edmunds, Castle Donington, Castleford, Cramlington and Perth.
 
 ```
 pip install -r requirements.txt
+gunzip solar_weather_dataset.csv.gz
 ```
+
+The merged dataset is stored compressed (4.6 MB packed, 29 MB unpacked) so that
+every file in this repository stays within GitHub's browser upload limit. Unzip
+it once before running anything.
 
 Python 3.11. The scripts read and write CSV files in the working directory, so
 run them from the repository root rather than from elsewhere.
