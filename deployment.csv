@@ -1,8 +1,0 @@
-Region,"Measured, 3-year mean (kWh/kWp)",Pooled model (kWh/kWp),Model error (%),PVGIS (kWh/kWp),PVGIS error (%)
-Crawley,870,843,-3.0,1035,+19.0
-Bury St Edmunds,863,816,-5.4,1042,+20.7
-Castle Donington,837,778,-7.1,990,+18.3
-Castleford,817,769,-5.8,961,+17.7
-Cramlington,824,784,-4.9,952,+15.5
-Perth,828,759,-8.3,897,+8.4
-Mean absolute error,,,5.77,,16.61
